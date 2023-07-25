@@ -90,7 +90,6 @@ body {
 }
 
 .cta .container .img{
-  /* border: 1px solid black; */
   display: flex;
   justify-content: start;
   align-items: center;
