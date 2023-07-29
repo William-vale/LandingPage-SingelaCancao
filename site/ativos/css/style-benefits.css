@@ -1,0 +1,170 @@
+@import url(style-global.css);
+
+.benefits {
+    width: 100%;
+}
+
+.benefits .container {
+    width: 100%;
+    height: 200vh;
+    background: var(--cor-verde);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits .container .info{
+    width: 100%;
+    height: 50%;
+}
+
+.benefits .container .info .informativo {
+    /* border: 0.1px solid black; */
+    width: 100%;
+    height: 130vh;
+}
+
+.benefits .container .info .informativo .info1,
+.benefits .container .info .informativo .info2,
+.benefits .container .info .informativo .info3 {
+    height: 22%;
+}
+
+.benefits .container .info .informativo .info0,
+.benefits .container .info .informativo .info1,
+.benefits .container .info .informativo .info2,
+.benefits .container .info .informativo .info3 {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits .container .info .informativo .info1 .info11, 
+.benefits .container .info .informativo .info1 .info12, 
+.benefits .container .info .informativo .info2 .info22, 
+.benefits .container .info .informativo .info2 .info21, 
+.benefits .container .info .informativo .info3 .info31 {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.benefits .container .info .informativo .info1 .info11, 
+.benefits .container .info .informativo .info1 .info12, 
+.benefits .container .info .informativo .info2 .info22 {
+    align-items: center;
+}
+
+.benefits .container .info .informativo .info1 .info11, 
+.benefits .container .info .informativo .info2 .info21 {
+    align-items: center;
+}
+
+.benefits .container .info .informativo .info3 .info31 {
+    align-items: center;
+}
+
+.benefits .container .info .informativo .info0 img, 
+.benefits .container .info .informativo .info1 .info11 img, 
+.benefits .container .info .informativo .info1 .info12 img, 
+.benefits .container .info .informativo .info2 .info22 img, 
+.benefits .container .info .informativo .info2 .info21 img, 
+.benefits .container .info .informativo .info3 .info31 img {
+    width: 400px;
+}
+
+.benefits .container .info .info-ebook{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.benefits .container .info .info-ebook img {
+    width: 1100px;
+}
+
+@media screen and (max-device-width: 1024px) {
+    .benefits .container .info .informativo .info0 img, 
+    .benefits .container .info .informativo .info1 .info11 img, 
+    .benefits .container .info .informativo .info1 .info12 img, 
+    .benefits .container .info .informativo .info2 .info22 img, 
+    .benefits .container .info .informativo .info2 .info21 img, 
+    .benefits .container .info .informativo .info3 .info31 img {
+        width: 350px;
+    }
+
+    .benefits .container .info .info-ebook img {
+        width: 900px;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .benefits {
+        width: 100%;
+        height: 750px;
+    }
+    
+    .benefits .container {
+        height: 148vh;
+    }
+
+    .benefits .container .info{
+        height: 85%;
+    }    
+
+    .benefits .container .info .informativo .info0 img, 
+    .benefits .container .info .informativo .info1 .info11 img, 
+    .benefits .container .info .informativo .info1 .info12 img, 
+    .benefits .container .info .informativo .info2 .info22 img, 
+    .benefits .container .info .informativo .info2 .info21 img, 
+    .benefits .container .info .informativo .info3 .info31 img {
+        width: 250px;
+    }
+
+    .benefits .container .info .info-ebook img {
+        width: 700px;
+    }
+
+    .benefits .container .info .info-ebook {
+        align-items: center;
+    }
+}
+
+@media screen and (max-device-width: 425px) {
+    .benefits .container .info .informativo .info0 img, 
+    .benefits .container .info .informativo .info1 .info11 img, 
+    .benefits .container .info .informativo .info1 .info12 img, 
+    .benefits .container .info .informativo .info2 .info22 img, 
+    .benefits .container .info .informativo .info2 .info21 img, 
+    .benefits .container .info .informativo .info3 .info31 img {
+        width: 170px;
+    }
+    
+    .benefits .container .info .info-ebook img {
+        width: 350px;
+    }   
+}
+
+@media screen and (max-device-width: 320px) {
+    .benefits .container .info .informativo .info0 img, 
+    .benefits .container .info .informativo .info1 .info11 img, 
+    .benefits .container .info .informativo .info1 .info12 img, 
+    .benefits .container .info .informativo .info2 .info22 img, 
+    .benefits .container .info .informativo .info2 .info21 img, 
+    .benefits .container .info .informativo .info3 .info31 img {
+        width: 120px;
+    }
+
+    .benefits .container .info .info-ebook img {
+        width: 280px;
+    }
+}

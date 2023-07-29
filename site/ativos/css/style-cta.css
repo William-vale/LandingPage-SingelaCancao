@@ -1,0 +1,124 @@
+@import url(style-global.css);
+
+.cta {
+    width: 100%;
+}
+
+.cta .container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .container .cta-container {
+    width: 90%;
+    height: 90%;
+    
+    display: flex;
+}
+
+.cta .container .cta-container .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.cta .container .cta-container .compra {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .container .cta-container .compra p {
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.cta .container .cta-container .img img {
+    width: 550px;
+}
+
+@media screen and (max-device-width: 768px){
+    .cta .container .cta-container .img img {
+        width: 320px;
+    }
+
+    .cta .container .cta-container .compra h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .cta .container .cta-container .compra p {
+        font-size: 47px;
+    }
+    
+    .cta .container .cta-container .compra a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-device-width: 425px){
+    .cta .container .cta-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        margin-top: 56px;
+    }
+
+    .cta .container .cta-container .img img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-device-width: 375px) {
+    .cta .container .cta-container {   
+        width: 100%;
+        margin-top: 76px;
+    }
+
+    .cta .container .cta-container .compra h2{
+        font-size: 22px;
+    }
+    
+    .cta .container .cta-container .compra p {
+        font-size: 40px;
+    }
+    
+    .cta .container .cta-container .compra a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .cta .container .cta-container {   
+        width: 100%;
+        margin-top: 96px;
+    }
+
+    .cta .container .cta-container .img img {
+        width: 250px;
+    }
+
+    .cta .container .cta-container .compra h2{
+        font-size: 20px;
+    }
+    
+    .cta .container .cta-container .compra p {
+        font-size: 35px;
+    }
+    
+    .cta .container .cta-container .compra a{
+        font-size: 12px;
+    }
+}

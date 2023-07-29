@@ -1,0 +1,66 @@
+@import url(style-global.css);
+
+.highlight {
+    width: 100%;
+    height: 100vh;
+}
+
+.highlight .container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight .container .container-high {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.highlight .container .container-high img {
+    width: 450px;
+}
+
+.highlight .container .container-high p {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* border: 0.1px solid black; */
+
+@media screen and (max-device-width: 768px) {
+    .highlight .container .container-high img {
+        width: 350px;
+    }
+
+    .highlight .container .container-high p {
+        font-size: 20px;
+    }    
+}
+
+@media screen and (max-device-width: 425px) { /* Mobile */
+    .highlight .container .container-high {
+        width: 90%;
+    }
+
+    .highlight .container .container-high img {
+        width: 250px;
+    }
+
+    .highlight .container .container-high p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-device-width: 320px) { 
+    .highlight .container .container-high img {
+        width: 200px;
+    }
+
+    .highlight .container .container-high p {
+        font-size: 12px;
+    }
+}
