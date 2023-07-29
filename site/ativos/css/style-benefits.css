@@ -110,16 +110,20 @@
 @media screen and (max-device-width: 768px) {
     .benefits {
         width: 100%;
-        height: 750px;
+        height: 850px;
     }
     
     .benefits .container {
-        height: 148vh;
+        height: 168vh;
     }
 
     .benefits .container .info{
         height: 85%;
     }    
+
+    .benefits .container .info .informativo {
+        height: 110vh;
+    }
 
     .benefits .container .info .informativo .info0 img, 
     .benefits .container .info .informativo .info1 .info11 img, 
@@ -131,15 +135,19 @@
     }
 
     .benefits .container .info .info-ebook img {
-        width: 700px;
+        width: 600px;
     }
 
     .benefits .container .info .info-ebook {
-        align-items: center;
+        align-items: start;
     }
 }
 
 @media screen and (max-device-width: 425px) {
+    .benefits .container {
+        height: 148vh;
+    }
+    
     .benefits .container .info .informativo .info0 img, 
     .benefits .container .info .informativo .info1 .info11 img, 
     .benefits .container .info .informativo .info1 .info12 img, 
@@ -149,6 +157,7 @@
         width: 170px;
     }
     
+
     .benefits .container .info .info-ebook img {
         width: 350px;
     }   
